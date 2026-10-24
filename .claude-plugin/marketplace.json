@@ -1,0 +1,13 @@
+{
+  "name": "output-offload",
+  "owner": {
+    "name": "Production Grade"
+  },
+  "plugins": [
+    {
+      "name": "output-offload",
+      "source": "./",
+      "description": "Big tool results go to a file; the model gets a short Haiku digest and the path to grep, so contexts stop refilling."
+    }
+  ]
+}
