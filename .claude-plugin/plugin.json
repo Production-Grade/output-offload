@@ -4,7 +4,8 @@
   "description": "Big tool results go to a file; the model gets a short Haiku digest and the path to grep, so contexts stop refilling.",
   "author": {
     "name": "Production Grade",
-    "url": "https://productiongrade.substack.com"
+    "url": "https://productiongrade.substack.com",
+    "email": "support@productiongrade.tech"
   },
   "license": "MIT",
   "homepage": "https://github.com/Production-Grade/output-offload",
