@@ -1,6 +1,6 @@
 {
   "name": "output-offload",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Big tool results go to a file; the model gets a short Haiku digest and the path to grep, so contexts stop refilling.",
   "author": {
     "name": "Production Grade",
