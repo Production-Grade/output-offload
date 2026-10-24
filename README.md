@@ -78,4 +78,11 @@ Constants at the top of [`hooks/register.ts`](hooks/register.ts):
 - Each digest is one small Haiku call, a fraction of a cent. Without it, the big result gets
   re-sent on every later request.
 
+## More from Production Grade
+
+Walkthroughs of these mods and of how I run Claude Code on real work:
+
+- YouTube: [@productiongradeai](https://www.youtube.com/@productiongradeai)
+- Substack: [productiongrade.substack.com](https://productiongrade.substack.com)
+
 Part of [Claude Lean Mods](https://github.com/Production-Grade/claude-lean-mods). MIT licence.
