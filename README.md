@@ -78,6 +78,13 @@ Constants at the top of [`hooks/register.ts`](hooks/register.ts):
 - Each digest is one small Haiku call, a fraction of a cent. Without it, the big result gets
   re-sent on every later request.
 
+## What it hooks and writes
+
+- `tool.call` on Bash, Read, Grep, Glob, WebFetch and MCP tools: after the tool runs, a result over the limit is swapped for the digest. Tool input is never changed.
+- `command.run` answers its own `/offload` command and nothing else.
+- Writes only `.claude-offload/<session>/<n>-<tool>.txt` in your project: plain copies of tool results. Nothing runs or reads them as instructions.
+- One small model call per offloaded result, for the digest.
+
 ## More from Production Grade
 
 Walkthroughs of these mods and of how I run Claude Code on real work:

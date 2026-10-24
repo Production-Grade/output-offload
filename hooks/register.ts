@@ -86,8 +86,9 @@ export const register: Register = on => {
       if (!path) {
         const sid = await $.session.id()
         const name = `${String(++n).padStart(3, '0')}-${e.tool.replace(/\W+/g, '_').slice(0, 40)}.txt`
-        path = `${await $.session.root()}/.claude-offload/${sid}/${name}`
-        await $.fs.write(path, text)
+        const root = await $.session.root()
+        await $.fs.write(`${root}/.claude-offload/${sid}/${name}`, text)
+        path = `${root}/.claude-offload/${sid}/${name}`
       }
 
       const r = await $.model.complete({
