@@ -1,9 +1,15 @@
 {
   "name": "output-offload",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Big tool results go to a file; the model gets a short Haiku digest and the path to grep, so contexts stop refilling.",
   "author": {
-    "name": "Production Grade"
+    "name": "Production Grade",
+    "url": "https://productiongrade.substack.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/Production-Grade/output-offload",
+  "repository": "https://github.com/Production-Grade/output-offload",
+  "documentationUrl": "https://github.com/Production-Grade/output-offload#readme",
+  "supportUrl": "https://github.com/Production-Grade/output-offload/issues",
+  "privacyPolicyUrl": "https://github.com/Production-Grade/output-offload/blob/main/PRIVACY.md"
 }
